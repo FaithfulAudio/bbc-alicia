@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws sesv2 *)",
+      "Bash(aws apigatewayv2 *)",
+      "Bash(git -c 'user.name=Collin Schneide' -c user.email=collindanielschneide@gmail.com commit -q -m ' *)"
+    ]
+  }
+}
