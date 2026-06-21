@@ -54,9 +54,11 @@ python3 -m http.server 8000
    (replace `REPLACE_WITH_FORM_ID`). Until then the form politely asks visitors to email.
 2. **Map pin:** `website/visit/index.html` uses the Alicia town-center coordinates
    (Plus Code VCWR+V5V). Replace with the exact building pin when confirmed.
-3. **Content to confirm with the church** (marked with `TODO` comments in the HTML):
+3. **Content to add/confirm with the church** (marked with `TODO` comments in the HTML):
    pastor's full name + bio, exact founding year/history, full ministries list, and
-   pastor's approval of the "What We Believe" summary on the About page.
+   the church's **own Statement of Faith** — deliberately omitted for now. The About
+   page shows only the church's own self-description; do not add doctrine until the
+   church provides their articles of faith.
 4. **Photos:** swap/add any images in `website/assets/img/` and `…/img/gallery/`.
 
 ## Deploy (AWS Amplify + Route 53)
