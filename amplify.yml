@@ -1,0 +1,12 @@
+version: 1
+frontend:
+  phases:
+    build:
+      commands: []
+  artifacts:
+    # Static site — no build step. Publish the website/ folder as-is.
+    baseDirectory: website
+    files:
+      - '**/*'
+  cache:
+    paths: []
